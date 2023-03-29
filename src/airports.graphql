@@ -1,0 +1,12 @@
+ type Airport {
+    id: ID
+    cityId: ID
+    name: String
+    code: String
+    icao: String
+  }
+
+  type Query {
+    airports: [Airport]
+  }
+  
